@@ -17,7 +17,7 @@
 ### Overriding
 - Dynamic polymorphism because method is resolved at **runtime**.
 - Method is called through reference to the object instance of belongingness.
-- Example: Car move method, overriding it the car behaves different from generic Vehicle
+- Example: CommonCar move method, overriding it the car behaves different from generic Vehicle
 
 ## Inheritance
 - Deriving all attributes and functions to a child class. In order to create non-perfect and unique replicas,
