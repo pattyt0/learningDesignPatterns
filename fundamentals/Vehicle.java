@@ -2,11 +2,14 @@
  * {@link Vehicle} hides internal state
  * In the imaginary vehicle we expose only what serves, and not how the engine works
  */
-public abstract class Vehicle {
+public abstract class Vehicle implements VehicleInterface {
     private boolean moving;
     private Motor motor;
     private int speed;
     private boolean accelerate;
+
+    public Vehicle() {
+    }
 
     public Vehicle(Motor motor) {
         this.motor = motor;

@@ -14,5 +14,13 @@ public class Main {
         // Vehicle holds a reference to the Car instance and its move method
         vehicle = new SportCar(new Toyota2024("toyota", 200));
         vehicle.move();
+
+        Truck truck = new Truck();
+        truck.setMotor(new Motor("Nissan Frontier", 2500));
+        truck.move();
+
+        Bus bus = new Bus();
+        bus.setMotor(new Motor("Mercedes Benz", 3000));
+        bus.move();
     }
 }
