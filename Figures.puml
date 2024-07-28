@@ -1,0 +1,20 @@
+@startuml
+
+interface Vehicle {
+}
+
+class Car implements Vehicle {}
+
+class SportCar extends Car {}
+
+class Truck implements Vehicle {}
+
+class Bus implements Vehicle {}
+
+class Garage {
+    -List<Vehicle> parkingSpots = new ArrayList<>;
+}
+
+Garage : +void park(Vehicle vehicle){ parkingSpots.add(vehicle) }
+
+@enduml
